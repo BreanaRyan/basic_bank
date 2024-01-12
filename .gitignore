@@ -12,7 +12,7 @@ install_manifest.txt
 
 ### C++ ###
 # Compiled Object files
-*.slo
+!.slo
 *.lo
 *.o
 *.obj
@@ -84,3 +84,4 @@ BUILD_MODE
 
 # TCK test artifacts
 *.jar
+ 
